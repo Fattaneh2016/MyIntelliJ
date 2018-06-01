@@ -14,5 +14,14 @@ public class MyArrays {
         char[][] arr = new char[5][5];
         System.out.print(Arrays.toString(arr));
     }
+
+    public void myArrayList(){
+
+        ArrayList<Integer> myList = new ArrayList<Integer>();
+        int sum = 0;
+        for (int i = 0; i < myList.size(); i++) {
+            sum += myList.get(i);
+        }
+    }
 }
 
